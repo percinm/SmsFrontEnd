@@ -92,8 +92,8 @@ function Form() {
       Receivers: selectedPhoneNumbers,
       SendDate: formatDate2(currentDate),
       ExpireDate: formatDate2(expireDate),
-      Username: 'abdulkadirabus',
-      Password: 'PG123AKA*'
+      Username: '*****',
+      Password: '*****'
     })
     .then((res) => res.json())
     .then(async (data) => {
