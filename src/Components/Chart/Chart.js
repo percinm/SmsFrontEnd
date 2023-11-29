@@ -43,7 +43,7 @@ const Report = () => {
                 groupedData[month] = { successful: 0, failed: 0, total: 0 };
             }
 
-            if (message.statusCode <= 400) {
+            if (message.statusCode < 400) {
                 groupedData[month].successful++;
             } else {
                 groupedData[month].failed++;
